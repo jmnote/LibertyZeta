@@ -1,14 +1,14 @@
 {
 	"name": "리버티제타",
 	"author": [
-		"LibertyZeta LLC", "..."
+		"Liberty LLC", "..."
 	],
-	"url": "https://gitlab.com/zetawiki/LibertyZeta-MW-Skin",
+	"url": "https://github.com/jmnote/LibertyZeta",
 	"descriptionmsg": "libertyzeta-desc",
 	"namemsg": "skinname-libertyzeta",
 	"license-name": "GPL-3.0+",
 	"type": "skin",
-	"version": "1.1.9",
+	"version": "1.0",
 	"ValidSkinNames": {
 		"libertyzeta": "LibertyZeta"
 	},
