@@ -1,24 +1,24 @@
 {
-	"name": "리버티",
+	"name": "리버티제타",
 	"author": [
-		"Liberty LLC", "..."
+		"LibertyZeta LLC", "..."
 	],
-	"url": "https://gitlab.com/librewiki/Liberty-MW-Skin",
-	"descriptionmsg": "liberty-desc",
-	"namemsg": "skinname-liberty",
+	"url": "https://gitlab.com/zetawiki/LibertyZeta-MW-Skin",
+	"descriptionmsg": "libertyzeta-desc",
+	"namemsg": "skinname-libertyzeta",
 	"license-name": "GPL-3.0+",
 	"type": "skin",
 	"version": "1.1.9",
 	"ValidSkinNames": {
-		"liberty": "Liberty"
+		"libertyzeta": "LibertyZeta"
 	},
 	"MessagesDirs": {
-		"Liberty": [
+		"LibertyZeta": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"skins.liberty.styles": {
+		"skins.libertyzeta.styles": {
 			"styles": {
 				"css/font/Nanum Gothic.css": {
 					"media": "all"
@@ -44,14 +44,14 @@
 				"css/wiki-table.css": {
 					"media": "all"
 				},
-				"css/wikiedittor-liberty.css": {
+				"css/wikiedittor-libertyzeta.css": {
 					"media": "all"
 				}
 			},
 			"position": "bottom"
 		},
 
-		"skins.liberty.bootstrap": {
+		"skins.libertyzeta.bootstrap": {
 			"scripts": [
 				"js/lib/jquery.ba-throttle-debounce.js",
 				"js/lib/jquery.cookie.js",
@@ -61,7 +61,7 @@
 			"position": "bottom"
 		},
 
-		"skins.liberty.layoutjs": {
+		"skins.libertyzeta.layoutjs": {
 			"scripts": [
 				"js/login_request.js",
 				"js/live-recent.js",
@@ -76,10 +76,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Liberty"
+		"remoteSkinPath": "LibertyZeta"
 	},
 	"AutoloadClasses": {
-		"SkinLiberty": "SkinLiberty.php",
-		"LibertyTemplate": "LibertyTemplate.php"
+		"SkinLibertyZeta": "SkinLibertyZeta.php",
+		"LibertyZetaTemplate": "LibertyZetaTemplate.php"
 	}
 }

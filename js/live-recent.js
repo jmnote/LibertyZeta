@@ -3,16 +3,16 @@ $(function() {
   var topicNamespaces = '1|3|5|7|9|11|13|15|2600|1601|1063';
   var isDocumentTab = true;
 
-  $('#liberty-recent-tab1').click(function(e){
+  $('#libertyzeta-recent-tab1').click(function(e){
     $(this).addClass('active');
-    $('#liberty-recent-tab2').removeClass('active');
+    $('#libertyzeta-recent-tab2').removeClass('active');
     isDocumentTab = true;
     refreshLiveRecent();
   });
 
-  $('#liberty-recent-tab2').click(function(e){
+  $('#libertyzeta-recent-tab2').click(function(e){
     $(this).addClass('active');
-    $("#liberty-recent-tab1").removeClass('active');
+    $("#libertyzeta-recent-tab1").removeClass('active');
     isDocumentTab = false;
     refreshLiveRecent();
   });

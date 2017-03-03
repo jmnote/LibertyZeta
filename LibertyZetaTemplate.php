@@ -1,5 +1,5 @@
 <?php
-class LibertyTemplate extends BaseTemplate {
+class LibertyZetaTemplate extends BaseTemplate {
 
 	function execute() {
 		global $wgRequest;
@@ -20,8 +20,8 @@ class LibertyTemplate extends BaseTemplate {
 		<section>
         <div class="content-wrapper">
 			<aside>
-            <div class="liberty-sidebar">
-                <div class="liberty-right-fixed">
+            <div class="libertyzeta-sidebar">
+                <div class="libertyzeta-right-fixed">
                     <?php $this->live_recent(); ?>
                 </div>
                 <div class="right-ads">
@@ -34,10 +34,10 @@ class LibertyTemplate extends BaseTemplate {
                 </div>
             </div>
 			</aside>
-            <div class="container-fluid liberty-content">
-                <div class="liberty-content-header">
+            <div class="container-fluid libertyzeta-content">
+                <div class="libertyzeta-content-header">
                     <?php if ( $this->data['sitenotice'] && $_COOKIE['alertcheck'] != "yes" ) { ?>
-                        <div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert">
+                        <div class="alert alert-dismissible fade in alert-info libertyzeta-notice" role="alert">
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -62,12 +62,12 @@ class LibertyTemplate extends BaseTemplate {
                         <?php $this->html( 'subtitle' ) ?>
                     </div>
                 </div>
-                <div class="liberty-content-main">
+                <div class="libertyzeta-content-main">
                     <?php if ( $title->getNamespace() != NS_SPECIAL && $action != "edit" && $action != "history") { ?>
                         <div class="social-buttons">
-                            <div class="google" data-url="https://librewiki.net/wiki/<?php $this->html( 'title' ) ?>" data-text="<?php $this->html( 'title' ) ?>" title="구글플러스"><div><i class="fa fa-google-plus"></i></div></div>
-                            <div class="twitter" data-url="https://librewiki.net/?curid=<?=$curid;?>" data-text="[<?php $this->html( 'title' ) ?>]%0A" title="트위터"><div><i class="fa fa-twitter"></i></div></div>
-                            <div class="facebook" data-url="https://librewiki.net/wiki/<?php $this->html( 'title' ) ?>" data-text="<?php $this->html( 'title' ) ?>" title="페이스북"><div><i class="fa fa-facebook"></i></div></div>
+                            <div class="google" data-url="https://zetawiki.net/wiki/<?php $this->html( 'title' ) ?>" data-text="<?php $this->html( 'title' ) ?>" title="구글플러스"><div><i class="fa fa-google-plus"></i></div></div>
+                            <div class="twitter" data-url="https://zetawiki.net/?curid=<?=$curid;?>" data-text="[<?php $this->html( 'title' ) ?>]%0A" title="트위터"><div><i class="fa fa-twitter"></i></div></div>
+                            <div class="facebook" data-url="https://zetawiki.net/wiki/<?php $this->html( 'title' ) ?>" data-text="<?php $this->html( 'title' ) ?>" title="페이스북"><div><i class="fa fa-facebook"></i></div></div>
                         </div>
                     <?php } ?>
                     <?php if ( $this->data['catlinks'] ) {
@@ -80,7 +80,7 @@ class LibertyTemplate extends BaseTemplate {
                 <div class="bottom-ads">
                 </div>
 				<footer>
-                <div class="liberty-footer">
+                <div class="libertyzeta-footer">
                     <?php $this->footer(); ?>
                 </div>
 				</footer>
@@ -113,9 +113,9 @@ class LibertyTemplate extends BaseTemplate {
             <li class="nav-item dropdown">
                 <span class="nav-link dropdown-toggle dropdown-toggle-fix" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="게시판에 접속합니다."><span class="fa fa-comments"></span><span class="hide-title">게시판</span></span>
                 <div class="dropdown-menu" role="menu">
-					<a class="dropdown-item" href="https://bbs.librewiki.net/wiki">위키방</a>
-					<a class="dropdown-item" href="https://bbs.librewiki.net/coop">조합게시판</a>
-					<a class="dropdown-item" href="https://bbs.librewiki.net/freeboard">자유게시판</a>
+					<a class="dropdown-item" href="https://bbs.zetawiki.net/wiki">위키방</a>
+					<a class="dropdown-item" href="https://bbs.zetawiki.net/coop">조합게시판</a>
+					<a class="dropdown-item" href="https://bbs.zetawiki.net/freeboard">자유게시판</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -123,8 +123,8 @@ class LibertyTemplate extends BaseTemplate {
                 <div class="dropdown-menu" role="menu">
                     <?=Linker::linkKnown( SpecialPage::getTitleFor( 'SpecialPages', null ), '특수 문서 목록', array( 'class' => 'dropdown-item', 'title' => '특수 문서 목록을 불러옵니다. [alt+shift+q]', 'accesskey' => 'q') ); ?>
                     <?=Linker::linkKnown( SpecialPage::getTitleFor( 'upload', null ), '업로드', array( 'class' => 'dropdown-item', 'title' => '파일을 올립니다. [alt+shift+g]', 'accesskey' => 'g') ); ?>
-                    <a class="dropdown-item" href="https://maps.librewiki.net">리브레 맵스</a>
-	                <a class="dropdown-item" href="https://issue.librewiki.net/">이슈 트래커</a>
+                    <a class="dropdown-item" href="https://maps.zetawiki.net">리브레 맵스</a>
+	                <a class="dropdown-item" href="https://issue.zetawiki.net/">이슈 트래커</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -244,10 +244,10 @@ class LibertyTemplate extends BaseTemplate {
 	    <div class="live-recent-header">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a href="javascript:" class="nav-link active" id="liberty-recent-tab1">최근바뀜</a>
+                <a href="javascript:" class="nav-link active" id="libertyzeta-recent-tab1">최근바뀜</a>
             </li>
             <li class="nav-item">
-                <a href="javascript:" class="nav-link" id="liberty-recent-tab2">최근토론</a>
+                <a href="javascript:" class="nav-link" id="libertyzeta-recent-tab2">최근토론</a>
             </li>
           </ul>
 	    </div>

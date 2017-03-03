@@ -3,7 +3,7 @@
 */
 var width = $(window).width();
 if($("#toc").html() && width > 1649) {
-    var content_where = $(".liberty-content-header").offset();
+    var content_where = $(".libertyzeta-content-header").offset();
     var a = "<button type=\"button\" class=\"btn btn-primary\" aria-label=\"Left Align\">  <span class=\"fa fa-list\" aria-hidden=\"true\"></span></button>";
     var indexButton = document.createElement("button");
     indexButton.id = "fixed-toc-button";

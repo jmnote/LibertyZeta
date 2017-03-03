@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liberty LLC","..."
+			"LibertyZeta LLC","..."
 		]
 	},
-	"skinname-liberty": "리버티",
-	"liberty-desc": "리브레 위키의 기본스킨입니다.",
-	"liberty.css": "/* 이 CSS 설정은 리버티 스킨을 사용하는 사용자에게 적용됩니다 */",
-	"liberty.js": "/* 이 자바스크립트 설정은 리버티 스킨을 사용하는 사용자에게 적용됩니다 */"
+	"skinname-libertyzeta": "리버티제타",
+	"libertyzeta-desc": "제타 위키의 기본스킨입니다.",
+	"libertyzeta.css": "/* 이 CSS 설정은 리버티제타 스킨을 사용하는 사용자에게 적용됩니다 */",
+	"libertyzeta.js": "/* 이 자바스크립트 설정은 리버티제타 스킨을 사용하는 사용자에게 적용됩니다 */"
 }

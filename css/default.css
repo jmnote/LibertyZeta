@@ -148,33 +148,33 @@ del, s, strike {
 /* 태그 수정 End */
 
 /* 백그라운드 색 지정 */
-.Liberty {
+.LibertyZeta {
     background-color: #f5f5f5;
 }
 /* 백그라운드 색 지정 End*/
 
 /* 컨텐츠 넓이 수정 및 가운대 정렬 */
-.Liberty .nav-wrapper .navbar, .Liberty .content-wrapper {
+.LibertyZeta .nav-wrapper .navbar, .LibertyZeta .content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
 }
 /* 컨텐츠 넓이 수정 및 가운대 정렬 End */
 
 /* 네비 수정 */
-.Liberty .nav-wrapper {
+.LibertyZeta .nav-wrapper {
     min-height: 2.8rem;
     background-color: #4188f1;
     z-index: 1001;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-.Liberty .nav-wrapper .navbar {
+.LibertyZeta .nav-wrapper .navbar {
     padding: 0 1rem;
     border: 0;
     border-radius: 0;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-brand {
+.LibertyZeta .nav-wrapper .navbar .navbar-brand {
     height: 2.8rem;
     width: 6.6rem;
     background: transparent url("../img/logo.png") no-repeat scroll left center/auto 1.9rem;
@@ -182,44 +182,44 @@ del, s, strike {
     margin: 0;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-nav .nav-item {
+.LibertyZeta .nav-wrapper .navbar .navbar-nav .nav-item {
     margin: 0;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .fa {
+.LibertyZeta .nav-wrapper .navbar .navbar-nav .nav-item .fa {
     margin-right: 0.5rem;
     font-size: 1rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link {
+.LibertyZeta .nav-wrapper .navbar .navbar-nav .nav-item .nav-link {
     color: #fff;
     font-size: 1rem;
     padding: 0.7rem 0.8rem;
     line-height: 1.4rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover, .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus {
+.LibertyZeta .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover, .LibertyZeta .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus {
     background-color: #71a5f4;
     transition: 0.3s;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-menu {
+.LibertyZeta .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-menu {
     margin-top: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-toggle::after {
+.LibertyZeta .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-toggle::after {
     margin-right: 0;
     margin-left: 0.35rem;
 }
 
-.Liberty .nav-wrapper .navbar .form-inline {
+.LibertyZeta .nav-wrapper .navbar .form-inline {
     padding: 0.4rem 0;
     float: right;
 }
 
-.Liberty .nav-wrapper .navbar .form-inline .form-control {
+.LibertyZeta .nav-wrapper .navbar .form-inline .form-control {
     font-size: 0.8rem;
     height: 2rem;
     width: 10.8rem;
@@ -230,61 +230,61 @@ del, s, strike {
     border-bottom-left-radius: 0.35rem;
 }
 
-.Liberty .nav-wrapper .navbar .form-inline .form-control:focus {
+.LibertyZeta .nav-wrapper .navbar .form-inline .form-control:focus {
     border-right-color: #e1e8ed;
 }
 
-.Liberty .nav-wrapper .navbar .form-inline .btn {
+.LibertyZeta .nav-wrapper .navbar .form-inline .btn {
     color: #4f5b63;
     padding: 0.2rem 0.4rem;
     line-height: 22px;
 }
 
-.Liberty .nav-wrapper .navbar .form-inline .btn:hover, .Liberty .nav-wrapper .navbar .form-inline .btn:focus {
+.LibertyZeta .nav-wrapper .navbar .form-inline .btn:hover, .LibertyZeta .nav-wrapper .navbar .form-inline .btn:focus {
     background-color: #4188f1;
     border-color: #5997f3;
     color: #fff;
     outline: 0;
 }
 
-.Liberty .nav-wrapper .navbar .form-inline .btn .fa {
+.LibertyZeta .nav-wrapper .navbar .form-inline .btn .fa {
     width: 0.9rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-notification {
+.LibertyZeta .nav-wrapper .navbar .navbar-notification {
     float: right;
     padding-left: 0.8rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-notification .label {
+.LibertyZeta .nav-wrapper .navbar .navbar-notification .label {
     padding: 0.25rem 0.4rem;
     line-height: 1rem;
     margin: 0.6rem 0;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login {
+.LibertyZeta .nav-wrapper .navbar .navbar-login {
     float: right;
     padding-left: 0.8rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .fa {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .fa {
     color: #fff;
     padding: 0.7rem 0;
     font-size: 1.5rem;
     line-height: 1.4rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .login-menu {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .login-menu {
     float: left;
     cursor: pointer;
     padding: 0.4rem 0;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .login-menu>a:after {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .login-menu>a:after {
     display: none;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .profile-img {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .profile-img {
     width: 2rem;
     height: 2rem;
     border-radius: 0.35rem;
@@ -292,18 +292,18 @@ del, s, strike {
     border: 1px solid #e1e8ed;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .logout-btn {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .logout-btn {
     margin-left: 0.8rem;
     display: inline-block;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .login-dropdown-menu {
     top: 120%;
     right: -1rem;
     z-index: 1002;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before, .Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before, .LibertyZeta .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
     bottom: 100%;
     border: solid transparent;
     content: " ";
@@ -312,14 +312,14 @@ del, s, strike {
     right: auto;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .login-dropdown-menu:before {
     border-bottom-color: #e1e8ed;
     border-width: 0.8rem;
     left: auto;
     right: 1.15rem;
 }
 
-.Liberty .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
+.LibertyZeta .nav-wrapper .navbar .navbar-login .login-dropdown-menu:after {
     border-bottom-color: #fff;
     border-width: 0.78rem;
     left: auto;
@@ -328,40 +328,40 @@ del, s, strike {
 /* 네비 수정 End */
 
 /* 오른쪽 메뉴 수정 */
-.Liberty .content-wrapper .liberty-sidebar {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar {
     float: right;
     width: 15rem;
     position: relative;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed {
     position: fixed;
     z-index: 999;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent {
     width: 15rem;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav {
     border: 0;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item {
     width: 7.5rem;
     border: 1px solid #e1e8ed;
     border-top-left-radius: 0.35rem;
     background-color: #f5f8fa;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item+.nav-item {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item+.nav-item {
     margin-left: 0;
     border-left: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0.35rem;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link {
     border: 0;
     border-radius: 0;
     border-top-left-radius: 0.35rem;
@@ -372,23 +372,23 @@ del, s, strike {
     position: relative;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item+.nav-item .nav-link {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item+.nav-item .nav-link {
     border-top-left-radius: 0;
     border-top-right-radius: 0.35rem;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active,
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:hover,
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:focus,
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:active {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active,
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:hover,
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:focus,
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:active {
     color: #373a3c;
     background-color: #fff;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active::before,
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:hover::before,
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:focus::before,
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:active::before {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active::before,
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:hover::before,
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:focus::before,
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:active::before {
     position: absolute;
     left: -1px;
     bottom: -1px;
@@ -398,36 +398,36 @@ del, s, strike {
     border-bottom: 2px solid #4188f1;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-content {
     background-color: #fff;
     border: 1px solid #e1e8ed;
     border-top: 0;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content .live-recent-list {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-content .live-recent-list {
     list-style: none;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content .live-recent-list li {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-content .live-recent-list li {
     border-bottom: 1px solid #e1e8ed;
     padding: 0.2rem 0.6rem;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content .live-recent-list li:last-child {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-content .live-recent-list li:last-child {
     border-bottom: none;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item {
     font-size: 0.80rem;
     color: #373a3c;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item .new {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item .new {
     font-size: 0.80rem;
     color: #b73333;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-footer {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-footer {
     background-color: #f5f8fa;
     border: 1px solid #e1e8ed;
     border-top: 0;
@@ -437,19 +437,19 @@ del, s, strike {
     padding: 0.4rem 0.6rem;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-footer .label {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-footer .label {
     background-color: #5997f3;
     padding: 0.4rem;
     font-size: 0.8rem;
     font-weight: 400;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-footer .label:hover {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .libertyzeta-right-fixed .live-recent .live-recent-footer .label:hover {
     background-color: #2979f0;
     transition: 0.3s;
 }
 
-.Liberty .content-wrapper .liberty-sidebar .right-ads {
+.LibertyZeta .content-wrapper .libertyzeta-sidebar .right-ads {
     position: absolute;
     top: 25.73rem;
     width: 15rem;
@@ -457,51 +457,51 @@ del, s, strike {
     /* 오른쪽 메뉴 수정 End */
 
 /* 컨텐츠 수정 */
-.Liberty .content-wrapper {
+.LibertyZeta .content-wrapper {
     margin-top: 3.33rem;
 }
 
-.Liberty .content-wrapper .liberty-content {
+.LibertyZeta .content-wrapper .libertyzeta-content {
     margin-right: 16rem;
     padding: 0;
     padding-bottom: 1rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header {
     border: 1px solid #e1e8ed;
     border-radius: 0.35rem 0.35rem 0 0;
     background-color: #f5f8fa;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .libertyzeta-notice {
     margin: 1rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice ul {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .libertyzeta-notice ul {
     list-style-image: none;
     list-style-type: none;
     text-align: center;
     line-height: 1.8rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .content-tools {
     float: right;
     padding-right: 1rem;
     padding-top: 1rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .content-tools .tools-btn {
     font-size: 0.9rem;
     padding: 0.4rem 0.8rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .dropdown-toggle {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .content-tools .dropdown-toggle {
     padding: 0.4rem 0.3rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:hover,
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:focus,
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:active {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .content-tools .tools-btn:hover,
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .content-tools .tools-btn:focus,
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .content-tools .tools-btn:active {
     background-color: #4188f1;
     color: #fff;
     transition: 0.3s;
@@ -509,31 +509,31 @@ del, s, strike {
     border-color: #e1e8ed;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .dropdown-menu {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .content-tools .dropdown-menu {
     top: 92%;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .title {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .title {
     padding: 1rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .contentSub {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .contentSub {
     margin-top: -0.5rem;
     padding: 1rem;
     padding-top: 0;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .title>h1 {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .title>h1 {
     color: #000;
     font-weight: bold;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .header-ads {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-header .header-ads {
     margin: 1rem;
     margin-bottom: 0;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-main {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-main {
     border-left: 1px solid #e1e8ed;
     border-right: 1px solid #e1e8ed;
     background-color: #fff;
@@ -542,13 +542,13 @@ del, s, strike {
     line-height: 1.6rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-main .social-buttons {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-main .social-buttons {
     float: right;
     margin-bottom: 1rem;
     width: 100%;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-main .social-buttons>div {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-main .social-buttons>div {
     float: right;
     width: 2.5rem;
     height: 2.5rem;
@@ -565,22 +565,22 @@ del, s, strike {
     font-size: 1.8rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-main .social-buttons>.facebook {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-main .social-buttons>.facebook {
     background-color: #5d82d1;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-main .social-buttons>.twitter {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-main .social-buttons>.twitter {
     background-color: #40bff5;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-main .social-buttons>.google {
+.LibertyZeta .content-wrapper .libertyzeta-content .libertyzeta-content-main .social-buttons>.google {
     background-color: #eb5e4c;
     display: none;
 }
 /* 컨텐츠 수정 End */
 
 /* 컨텐츠 하단 수정 */
-.Liberty .content-wrapper .liberty-footer {
+.LibertyZeta .content-wrapper .libertyzeta-footer {
     border: 1px solid #e1e8ed;
     border-radius: 0 0 0.35rem 0.35rem;
     background-color: #f5f8fa;
@@ -588,75 +588,75 @@ del, s, strike {
     clear: both;
 }
 
-.Liberty .content-wrapper .liberty-footer ul {
+.LibertyZeta .content-wrapper .libertyzeta-footer ul {
     list-style-type: none;
     list-style-image: none;
 }
 
-.Liberty .content-wrapper .liberty-footer ul {
+.LibertyZeta .content-wrapper .libertyzeta-footer ul {
     margin-bottom: 0.8rem;
     display: inline-block;
     width: 100%;
 }
 
-.Liberty .content-wrapper .liberty-footer .footer-places li {
+.LibertyZeta .content-wrapper .libertyzeta-footer .footer-places li {
     text-align: left;
     float: left;
     margin-right: 0.8rem;
 }
 
-.Liberty .content-wrapper .liberty-footer .footer-icons {
+.LibertyZeta .content-wrapper .libertyzeta-footer .footer-icons {
     margin-bottom: 0;
 }
 
-.Liberty .content-wrapper .liberty-footer .footer-icons li {
+.LibertyZeta .content-wrapper .libertyzeta-footer .footer-icons li {
     margin-right: 0.8rem;
     float: left;
 }
 /* 컨텐츠 하단 수정 End */
 
 /* 모달 수정 */
-.Liberty .login-modal {
+.LibertyZeta .login-modal {
 
 }
 
-.Liberty .login-modal .modal-sm {
+.LibertyZeta .login-modal .modal-sm {
     width: 25rem;
 }
 
-.Liberty .login-modal .modal-header {
+.LibertyZeta .login-modal .modal-header {
     padding: 0.7rem;
 }
 
-.Liberty .login-modal .modal-title {
+.LibertyZeta .login-modal .modal-title {
     text-align: center;
     padding-left: 1.5rem;
 }
 
-.Liberty .login-modal .alert {
+.LibertyZeta .login-modal .alert {
     padding: 0.8rem;
     margin-bottom: 0.8rem;
 }
 
-.Liberty .login-modal .alert-hidden {
+.LibertyZeta .login-modal .alert-hidden {
     display: none;
 }
 
-.Liberty .login-modal .form-control {
+.LibertyZeta .login-modal .form-control {
     margin-bottom: 0.8rem;
 }
 
-.Liberty .login-modal .modal-checkbox:not(#noop) {
+.LibertyZeta .login-modal .modal-checkbox:not(#noop) {
     position: relative;
     display: table;
 }
 
-.Liberty .login-modal .modal-checkbox {
+.LibertyZeta .login-modal .modal-checkbox {
     vertical-align: middle;
     margin-bottom: 0.7rem;
 }
 
-.Liberty .login-modal .modal-checkbox:not(#noop) input[type="checkbox"] {
+.LibertyZeta .login-modal .modal-checkbox:not(#noop) input[type="checkbox"] {
     opacity: 0;
     width: 2em;
     height: 2em;
@@ -665,17 +665,17 @@ del, s, strike {
     display: table-cell;
 }
 
-.Liberty .login-modal .modal-checkbox:not(#noop) * {
+.LibertyZeta .login-modal .modal-checkbox:not(#noop) * {
     vertical-align: middle;
     font: inherit;
 }
 
-.Liberty .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]+label {
+.LibertyZeta .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]+label {
     padding-left: 0.4em;
     display: table-cell;
 }
 
-.Liberty .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]+label::before {
+.LibertyZeta .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]+label::before {
     -webkit-transition: 0.2s cubic-bezier(0.175,0.885,0.32,1.275);
     -moz-transition: 0.2s cubic-bezier(0.175,0.885,0.32,1.275);
     -o-transition: 0.2s cubic-bezier(0.175,0.885,0.32,1.275);
@@ -696,20 +696,20 @@ del, s, strike {
     margin-top: -1em;
 }
 
-.Liberty .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]+label:hover::before {
+.LibertyZeta .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]+label:hover::before {
     border: 3px solid #777;
 }
 
-.Liberty .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]:checked+label::before {
+.LibertyZeta .login-modal .modal-checkbox:not(#noop) input[type="checkbox"]:checked+label::before {
     border: 3px solid #777;
     background-image: linear-gradient(transparent,transparent),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cpath%20d%3D%22M4%2012l5%205L20%205%22%20stroke%3D%22%2300B78C%22%20stroke-width%3D%223%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E%0A);
 }
 
-.Liberty .login-modal .btn {
+.LibertyZeta .login-modal .btn {
     margin-bottom: 0.8rem;
 }
 
-.Liberty .login-modal .modal-footer {
+.LibertyZeta .login-modal .modal-footer {
     display: none;
 }
 /* 모달 수정 End*/

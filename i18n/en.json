@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liberty LLC","..."
+			"LibertyZeta LLC","..."
 		]
 	},
-	"skinname-liberty": "Liberty",
-	"liberty-desc": "Default skin of Libre Wiki.",
-	"liberty.css": "/* CSS placed here will affect users of the Liberty skin */",
-	"liberty.js": "/* Any JavaScript here will be loaded for users using the Liberty skin */"
+	"skinname-libertyzeta": "LibertyZeta",
+	"libertyzeta-desc": "Default skin of Zeta Wiki.",
+	"libertyzeta.css": "/* CSS placed here will affect users of the LibertyZeta skin */",
+	"libertyzeta.js": "/* Any JavaScript here will be loaded for users using the LibertyZeta skin */"
 }
