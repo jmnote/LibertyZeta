@@ -1,3 +1,1 @@
-리브레 위키의 새로운 스킨
-
-위키엔진 리버티의 기본 레이아웃이 될 예정
+This is a fork of liberty skin - https://github.com/librewiki/liberty-skin
